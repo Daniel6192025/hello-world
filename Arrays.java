@@ -9,14 +9,22 @@ public class Arrays
 {
     public static void main(String[] args) {
         String[] strArray = {"Alpha" ,"Bravo", "Charlie", "Delta", "Echo"};
-        for (String i: strArray ){
+        for (String i: strArray) {
             System.out.println(i);
-            for (String f: strArray){
-                System.out.print(f);
-                for (String h: strArray){
-                    System.out.print(h + "-");
-                }
-            }
+        }
+        for (int i = 0; i < strArray.length; i++) {
+            System.out.print( strArray[i]);
+        }
+        System.out.println();
+        for (int g = 0; g < strArray.length; g++) {
+            System.out.print(strArray[g] + "-");
+        }
     }
 }
-}
+        
+    
+            
+        
+    
+
+          
